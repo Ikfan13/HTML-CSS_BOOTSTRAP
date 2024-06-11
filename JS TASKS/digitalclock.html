@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .container
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid darkviolet 3px;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            border-radius: 50%;
+            background-image:url(./painted-wooden-plank-textured-backdrop.jpg);
+            margin: auto;
+            box-shadow: 7px 5px 4px 7px;
+        }
+        #d1
+        {
+            font-size: 30px;
+            color: khaki;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div id="d1"></div>
+    </div>
+
+
+    <script>
+        function myclock()
+        {
+            let mytime=new Date();
+            document.getElementById("d1").innerHTML=mytime.toLocaleTimeString();
+        }
+        setInterval(myclock,1000);
+    </script>
+</body>
+</html>

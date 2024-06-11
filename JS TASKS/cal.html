@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: solid cyan 3px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 4px 5px 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="FN">First Number:</label>
+        <input type="text" name="fn" id="fn"><br><br>
+        <label for="LN">Second Number:</label>
+        <input type="text" name="ln" id="ln"><br>
+        <button type="button" onclick="Addition()">Add</button>
+        <button type="button" onclick="Subtract()">Sub</button>
+        <button type="button" onclick="Multiply()">Mul</button>
+        <button type="button" onclick="Divide()">Div</button>
+        <br>
+        <b>Result: <b id="R"></b></b>
+    </form>
+    <script>
+          function Addition()
+           {
+            let num1=document.getElementById("fn").value;
+            let num2=document.getElementById("ln").value;
+            console.log(parseInt(num1)+parseInt(num2));
+            let sum=parseInt(num1)+parseInt(num2);
+            document.getElementById("R").innerHTML= +sum;
+           }
+           function Subtract()
+           {
+            let num1=document.getElementById("fn").value;
+            let num2=document.getElementById("ln").value;
+            console.log(parseInt(num1)-parseInt(num2));
+            let sub=parseInt(num1)-parseInt(num2);
+            document.getElementById("R").innerHTML= +sub;
+           }
+           function Multiply()
+           {
+            let num1=document.getElementById("fn").value;
+            let num2=document.getElementById("ln").value;
+            console.log(parseInt(num1)*parseInt(num2));
+            let mul=parseInt(num1)*parseInt(num2);
+            document.getElementById("R").innerHTML= +mul;
+           }
+           function Divide()
+           {
+            let num1=document.getElementById("fn").value;
+            let num2=document.getElementById("ln").value;
+            console.log(parseInt(num1)/parseInt(num2));
+            let div=parseInt(num1)/parseInt(num2);
+            document.getElementById("R").innerHTML= +div;
+           }
+    </script>
+</body>
+</html>

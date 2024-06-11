@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="./s" alt="">
+    <img src="./Arthur.avif" id="img1" alt="gg" width="400px" height="400px"><br>
+    <strong id="imgName">Arthur Morgan</strong><br>
+    <button type="button" id="btn" onclick="changevijayImage()">Dutch</button>
+    <button type="button" id="btn" onclick="changedhoniImage()">John</button>
+    <button type="button" id="btn" onclick="changeviratImage()">Hosea</button>
+    <button type="button" id="btn" onclick="changemessiImage()">Sadie</button>
+    <button type="button" id="btn" onclick="changerdjImage()">Micah</button>
+    <button type="button" id="btn" onclick="changerockImage()">Agent</button>
+    <script>
+    function changevijayImage(){
+        document.getElementById("img1").src="./Dutch.jfif";
+        document.getElementById("imgName").innerHTML="Dutch Van";
+    }
+    function changedhoniImage(){
+        document.getElementById("img1").src="./john.jfif";
+        document.getElementById("imgName").innerHTML="John Martson";
+    }
+    function changeviratImage(){
+        document.getElementById("img1").src="./Hosea.webp";
+        document.getElementById("imgName").innerHTML="Hosea";
+    }
+    function changemessiImage(){
+        document.getElementById("img1").src="./sadie.jfif";
+        document.getElementById("imgName").innerHTML="Sadie";
+    }
+    function changerdjImage(){
+        document.getElementById("img1").src="./Micah.jfif";
+        document.getElementById("imgName").innerHTML="Micah Rat";
+    }
+    function changerockImage(){
+        document.getElementById("img1").src="./Agent.webp";
+        document.getElementById("imgName").innerHTML="Agent Ross";
+    }
+</script>
+</body>
+</html>

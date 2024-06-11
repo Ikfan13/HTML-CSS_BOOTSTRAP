@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="../Assets/Images/Red-Dead-Redemption.webp" id="img1" width="400px" height="400px" alt=""><br>
+    <strong id="imgname">Arthur Morgan</strong><br>
+    <button type="button" onclick="chimg()">ChangeImage</button>
+    <script>
+        function chimg(){
+            document.getElementById("img1").src="../Assets/Images/arthur_morgan.jpg";
+            document.getElementById("imgname").innerHTML="Gang of Arthur";
+        }
+    </script>
+</body>
+</html>

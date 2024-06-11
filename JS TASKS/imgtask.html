@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+        <img src="../Assets/Images/Red-Dead-Redemption.webp" id="img" height="300px" width="300px" alt="roger"><br>
+        <strong id="imgname">Gangs Of Arthur</strong><br>
+        <button type="button" onclick="changeimg()">Change Image</button>
+        
+        <script>
+        let rogerImage = "../Assets/Images/Red-Dead-Redemption.webp";
+        let rayleighImage = "../Assets/Images/arthur_morgan.jpg";
+        let currentState = "roger";
+        
+        function changeimg(){
+            if(currentState == "roger")
+            {
+        
+                    document.getElementById("img").src="../Assets/Images/arthur_morgan.jpg";
+                    document.getElementById("imgname").innerHTML=" Arthur Morgan";
+                    currentState="goa"
+                }
+             else{
+                document.getElementById("img").src="../Assets/Images/Red-Dead-Redemption.webp";
+                    document.getElementById("imgname").innerHTML="Gangs of Arthur";
+                    currentState="roger"
+             }   
+                }
+            </script>
+</body>
+</html>

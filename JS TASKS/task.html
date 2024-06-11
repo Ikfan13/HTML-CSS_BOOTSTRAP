@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <label for="text1">text1</label>
+     <textarea name="text1" id="text1"></textarea>
+     <button type="button" onclick="change()">click here</button>
+     <label for="text2">Text2</label>
+     <textarea name="text2" id="text2"></textarea>
+    </form>
+    <script>
+        function change()
+        {
+        let t=document.getElementById("text1").value;
+        document.getElementById("text2").innerHTML=t;
+        }
+    </script>
+
+</body>
+</html>
