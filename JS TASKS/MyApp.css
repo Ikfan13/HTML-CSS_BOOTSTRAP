@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.app-container {
+    border: 3px solid darkcyan;
+    padding: 26px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background: lightgray;
+}
+.app-content {
+    display: none; 
+}
+.button-row {
+    margin-bottom: 10px; 
+    display: flex;
+    justify-content: center; 
+}
+
+ 
+.button-row button {
+    margin: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    border: none;
+    color: cyan;
+    background: black;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button-row button:hover {
+    background-color: crimson; 
+}
+.result {
+    margin-top: 10px;
+}
