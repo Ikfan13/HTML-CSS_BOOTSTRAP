@@ -1,0 +1,20 @@
+<p>empdetails works!</p>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th><th>NAME</th> <th>SALARY</th> <th>ROLE</th>
+        </tr>
+    </thead>
+    <tbody>
+         <tr *ngFor="let e of emp">
+            <td>{{e.id}}</td>
+            <td>{{e.name}}</td>
+            <td>{{e.salary}}</td>
+            <td>{{e.role}}</td>
+         </tr>
+
+    </tbody>
+</table>

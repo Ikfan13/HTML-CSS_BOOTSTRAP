@@ -1,0 +1,44 @@
+body{
+    background-image: url(painted-wooden-plank-textured-backdrop.jpg);
+}
+.logo
+   {
+    border: solid black 4px;
+    vertical-align: middle;
+    border-radius: 50%;
+   }
+header
+    {
+        border:  unset;
+        border-bottom: ;
+       
+        flex:auto;
+        text-align: center;
+        background-image: url(painted-wooden-plank-textured-backdrop.jpg);
+        position:sticky;
+        top:0px;
+        z-index:1;
+    }
+.title{
+    font-size: 25px;
+    color: violet;
+    font-weight: 700;
+    text-shadow: 6px 3px 5px black;
+    vertical-align: middle;
+    
+}
+.searchbar{
+    position: relative;
+    left: 500px;
+    bottom: 120px;
+}
+.footer-container{
+    color:khaki;
+    text-align: center;
+}
+.navbar
+{
+    font-size: 20px;
+    font-weight: 500px;
+    
+}

@@ -1,0 +1,61 @@
+{
+  "product":[
+    {
+        "id":1,
+        "pname":"Laptop",
+        "price":"50000",
+        "company":"HP"
+    },
+    {
+        "id":2,
+        "pname":"Adapter",
+        "price":"3000",
+        "company":"HP"
+    },
+    {
+        "id":3,
+        "pname":"Mouse",
+        "price":"500",
+        "company":"Sony"
+    },
+    {
+        "id":4,
+        "pname":"USB",
+        "price":"2000",
+        "company":"DELL"
+    },
+    {
+        "id":5,
+        "pname":"KeyBoard",
+        "price":"400",
+        "company":"Zebronics"
+    },
+    {
+        "id":6,
+        "pname":"Cable",
+        "price":"200",
+        "company":"Apple"
+    }
+
+  ],
+
+  "user":[
+    {
+        "id":1,
+        "uname":"veeragavan@beast.com",
+        "upass":"beast@123"
+    },
+    {
+        "id":2,
+        "uname":"vetrivel@kuruvi.com",
+        "upass":"singamuthu@123"
+    },
+    {
+        "id":3,
+        "uname":"marudheeran@puli.com",
+        "upass":"vedhalam@123"
+    }
+  ]
+  
+
+}

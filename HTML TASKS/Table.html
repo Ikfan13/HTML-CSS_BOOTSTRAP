@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>SIMPLE TABLE</h2>
+
+<table border=""  width="25%">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Post</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>101</td><td>Toji</td><td>Trainer</td>
+        </tr>
+        <tr>
+            <td>102</td><td>Yuji</td><td>Developer</td>
+        </tr>
+        <tr>
+            <td>103</td><td>Tanjiro</td><td>TL</td>
+        </tr>
+    </tbody>
+</table>
+
+ <hr>
+     <h2>TABLE WITH COLSPAN</h2>
+     <table border="" width="25%">
+       <thead> 
+        <tr>
+            <th colspan="2" bgcolor="Blue"><font color="white">ID & Name</font></th>
+            <th bgcolor="red">Post</th>
+        </tr>
+       </thead>
+     <tbody>
+        <tr>
+            <td>101</td><td>Toji</td><td>Trainer</td>
+        </tr>
+        <tr>
+            <td>102</td><td>Yuji</td><td>Developer</td>
+        </tr>
+        <tr>
+            <td>103</td><td>Tanjiro</td><td>TL</td>
+        </tr>
+     </tbody>  
+       
+     </table>
+     <hr>
+     <h2>Table with RowSpan</h2>
+
+     <table border="" width="25%">
+       <tr >
+         <td>A</td> <td>B</td> <td rowspan="2" bgcolor="lightyellow">C</td>
+       </tr>
+       <tr >
+        <td rowspan="2" bgcolor="pink">D</td> <td>E</td>
+      </tr>
+      <tr >
+        <td>F</td> <td rowspan="2">G</td>
+      </tr>
+     </table>
+     <hr>
+     <h2>Table with row and cols span</h2>
+
+    <table border="" width="25%">
+        <tr>
+            <td bgcolor="violet" rowspan="2" colspan="2">A</td> <td>B</td>           
+        </tr>
+        <tr>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td><td>E</td><td>F</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
